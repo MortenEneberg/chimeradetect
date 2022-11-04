@@ -1,0 +1,19 @@
+# CONFIG file, change paths here
+reads: "/user_data/men/sepseq/dummy114/data/lib114dum/20221020_1339_X1_FAV42340_d58b518a/fastq_pass"
+kraken2db: "/user_data/men/sepseq/databases/2022_05_25_new_kraken_database/kraken2_db_NCBI_gtdb/"
+kraken2_genomes: "/user_data/men/sepseq/databases/2022_10_18_kraken2_EUPATH_database/genomes/"
+barcodes: "/user_data/men/sepseq/contamination_origin/barcodes/linked/Linked_barcodes_min20.fasta"
+single_barcodes: "/user_data/men/sepseq/dummy114/2022_10_24_Barcode_count/Nanopore_SRSLY_barcodes_discard_trimmed.fna"
+adapters: "/user_data/men/sepseq/contamination_origin/barcodes/adapter/SRSLY_adapters.fasta"
+
+Cutadapt: "cutadapt/3.4-GCCcore-10.2.0-Python-3.8.6"
+Bowtie2: "Bowtie2/2.4.2-foss-2020b"
+Kraken2: "Kraken2/2.1.1-foss-2018a-Perl-5.26.1"
+Seqkit: "SeqKit/2.0.0"
+Nanoplot: "NanoPlot/1.40.2-foss-2020b"
+Fastqc: "FastQC/0.11.9-Java-13.0.1"
+
+SAMPLE: ["dummy114"]
+
+Rlibpath: "/user_data/men/sepseq/R_lib/x86_64-pc-linux-gnu-library/3.6"
+Kraken2_confidence: "0.2"
