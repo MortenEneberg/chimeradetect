@@ -1,2 +1,2 @@
 # chimeradetect
-A Snakemake pipeline to detect ligation chimeras from Nanopore sequencing in your dataset.
+A set of scripts using Bowtie2 to quantify and visualise ligation chimeras in your Nanopore datasets.
